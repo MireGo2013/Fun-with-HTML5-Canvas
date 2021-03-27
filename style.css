@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+h1 {
+  text-align: center;
+  animation: example-animation 3s linear infinite;
+}
+
+#draw {
+  border: 2px solid purple;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+#clearCanvasBtn {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+@keyframes example-animation {
+  1% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: greenyellow;
+  }
+  75% {
+    color: indigo;
+  }
+  100% {
+    color: rgb(243, 255, 138);
+  }
+}
